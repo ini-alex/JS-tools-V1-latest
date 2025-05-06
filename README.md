@@ -4,7 +4,7 @@
 ---
 
 ### **Bahasa Indonesia**  
-***Pengantar***  
+#### ***Pengantar***  
 Script ini diciptakan oleh **Lexxa2nd** dengan tujuan memudahkan para programmer dalam hal coding ringan maupun berat.
 
 ***Cara Pakai??***  
@@ -24,7 +24,7 @@ Laporkan bug/error melalui kontak yang tersedia di bagian footer.
 ---
 
 ### **English**  
-***Introduction***  
+#### ***Introduction***  
 This script was created by **Lexxa2nd** with the aim of helping programmers with both lightweight and heavy coding tasks.
 
 ***How to Use??***  
