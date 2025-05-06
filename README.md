@@ -2,15 +2,15 @@
 ## Lightweight .js tools to ease the .js coding process
 
 **Bahasa Indonesia**  
-*Pengantar*  
+***Pengantar***  
 Script ini diciptakan oleh Lexxa2nd dengan tujuan memudahkan para programmer dalam hal coding ringan-berat
 
 *Cara pakai??*  
-**Jika di panel:**
+**Jika di *panel:***
 - tinggal `npm start`  
 - Atau, command run diganti jadi => `bash run.sh`
 
-**Jika di Terminal seperti Termux:**  
+**Jika di *Terminal* seperti *Termux:***  
 - ketik => `git clone https://github.com/ini-alex/JS-tools-V1-latest`
 - ketik => `cd JS-tools-V1-latest`
 - Ketik => `bash run.sh`, di terminal
@@ -21,15 +21,15 @@ Script ini diciptakan oleh Lexxa2nd dengan tujuan memudahkan para programmer dal
 ---
 
 **English**  
-*Introduction*  
+***Introduction***  
 This script was created by Lexxa2nd with the aim of helping programmers in both light and heavy coding tasks.
 
 *How to use??*  
-**If you're using a panel:**  
+**If you're using a *panel:***  
 - Just run `npm start`  
 - Or, change the run command to => `bash run.sh`
 
-**If you're using a terminal like Termux:**
+**If you're using a *terminal* like *Termux:***
 - type => `git clone https://github.com/ini-alex/JS-tools-V1-latest`
 - type => `cd JS-tools-V1-latest`
 - Type => `bash run.sh` in the terminal
@@ -39,7 +39,7 @@ This script was created by Lexxa2nd with the aim of helping programmers in both 
 
 ---
 
-**© Lexxa2nd || 2025 - now**  
+**© Lexxa2nd || 2025 - NOW**  
 Made with passion and caffeine.  
 Follow for updates: [Whatsapp channel](https://whatsapp.com/channel/0029Vb43ANHEAKWOEuGnO23o)  
 Want to ask something? [Contact Developer](https://wa.me/6285129426672)
