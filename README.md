@@ -1,4 +1,4 @@
-# JS tools V1-latest
+# **JS tools V1-latest**
 ## Lightweight .js tools to ease the .js coding process
 
 **Bahasa Indonesia**  
@@ -7,14 +7,15 @@ Script ini diciptakan oleh Lexxa2nd dengan tujuan memudahkan para programmer dal
 
 *Cara pakai*  
 **Jika di panel:**  
-- tinggal npm start  
-- Atau, command run diganti jadi => bash run.sh
+- tinggal `npm start`  
+- Atau, command run diganti jadi => `bash run.sh`
 
-**Jika di Terminal seperti termux:**  
-- Ketik => bash run.sh, di terminal
+**Jika di Terminal seperti Termux:**  
+- Ketik => `bash run.sh`, di terminal
 
-**Catatan:**
-- Script ini masih dikembangkan, mohon maklumi jika fitur masih kurang atau banyak terjadi error, developer memberikan tempat terbuka untuk kalian melaporkan bug/error pada nomor di bawah(pada footer)
+**Catatan:**  
+- Script ini masih dikembangkan, mohon maklumi jika fitur masih kurang atau banyak terjadi error. Developer memberikan tempat terbuka untuk kalian melaporkan bug/error pada nomor di bawah (pada footer)
+
 ---
 
 **English**  
@@ -29,12 +30,12 @@ This script was created by Lexxa2nd with the aim of helping programmers in both 
 **If you're using a terminal like Termux:**  
 - Type => `bash run.sh` in the terminal
 
-**Note:**
-- This script is still under development, please understand if the features are still lacking or there are many errors, the developer provides an open place for you to report bugs/errors to the number below.
+**Note:**  
+- This script is still under development. Please understand if some features are incomplete or bugs may occur. The developer provides an open contact for reporting issues (see footer below).
+
 ---
 
 **© Lexxa2nd || 2025 - now**  
 Made with passion and caffeine.  
-Follow for updates: [Whatsapp channel](https://whatsapp.com/channel/0029Vb43ANHEAKWOEuGnO23o)
-
-Want to ask something?: [Contact Developer](https://wa.me/6285129426672)
+Follow for updates: [Whatsapp channel](https://whatsapp.com/channel/0029Vb43ANHEAKWOEuGnO23o)  
+Want to ask something? [Contact Developer](https://wa.me/6285129426672)
