@@ -7,10 +7,10 @@
 ***Pengantar***  
 Script ini diciptakan oleh **Lexxa2nd** dengan tujuan memudahkan para programmer dalam hal coding ringan maupun berat.
 
-***Cara Pakai***  
+***Cara Pakai??***  
 **Jika di *panel*:**
 - Jalankan perintah: `npm start`  
-- Atau ubah perintah run menjadi: `bash run.sh`
+- Atau ubah command run menjadi: `bash run.sh`
 
 **Jika di *terminal* seperti *Termux*:**
 - Jalankan perintah: `git clone https://github.com/ini-alex/JS-tools-V1-latest`
@@ -27,7 +27,7 @@ Laporkan bug/error melalui kontak yang tersedia di bagian footer.
 ***Introduction***  
 This script was created by **Lexxa2nd** with the aim of helping programmers with both lightweight and heavy coding tasks.
 
-***How to Use***  
+***How to Use??***  
 **If you're using a *panel*:**
 - Run this command: `npm start`  
 - Or change the run command to: `bash run.sh`
