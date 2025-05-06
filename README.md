@@ -1,45 +1,49 @@
 # **JS tools V1-latest**
-## Lightweight .js tools to ease the .js coding process
+## *Lightweight .js tools to ease the .js coding process*
+
+---
 
 **Bahasa Indonesia**  
 ***Pengantar***  
-Script ini diciptakan oleh Lexxa2nd dengan tujuan memudahkan para programmer dalam hal coding ringan-berat
+Script ini diciptakan oleh **Lexxa2nd** dengan tujuan memudahkan para programmer dalam hal coding ringan maupun berat.
 
-*Cara pakai??*  
-**Jika di *panel:***
-- tinggal `npm start`  
-- Atau, command run diganti jadi => `bash run.sh`
+***Cara Pakai***  
+**Jika di *panel*:**
+- Jalankan perintah: `npm start`  
+- Atau ubah perintah run menjadi: `bash run.sh`
 
-**Jika di *Terminal* seperti *Termux:***  
-- ketik => `git clone https://github.com/ini-alex/JS-tools-V1-latest`
-- ketik => `cd JS-tools-V1-latest`
-- Ketik => `bash run.sh`, di terminal
+**Jika di *terminal* seperti *Termux*:**
+- Jalankan perintah: `git clone https://github.com/ini-alex/JS-tools-V1-latest`
+- Masuk ke folder: `cd JS-tools-V1-latest`
+- Jalankan: `bash run.sh`
 
 **Catatan:**  
-- Script ini masih dikembangkan, mohon maklumi jika fitur masih kurang atau banyak terjadi error. Developer memberikan tempat terbuka untuk kalian melaporkan bug/error pada nomor di bawah (pada footer)
+Script ini masih dalam tahap pengembangan. Mohon maklumi jika ada fitur yang belum lengkap atau error yang muncul.  
+Laporkan bug/error melalui kontak yang tersedia di bagian footer.
 
 ---
 
 **English**  
 ***Introduction***  
-This script was created by Lexxa2nd with the aim of helping programmers in both light and heavy coding tasks.
+This script was created by **Lexxa2nd** with the aim of helping programmers with both lightweight and heavy coding tasks.
 
-*How to use??*  
-**If you're using a *panel:***  
-- Just run `npm start`  
-- Or, change the run command to => `bash run.sh`
+***How to Use***  
+**If you're using a *panel*:**
+- Run this command: `npm start`  
+- Or change the run command to: `bash run.sh`
 
-**If you're using a *terminal* like *Termux:***
-- type => `git clone https://github.com/ini-alex/JS-tools-V1-latest`
-- type => `cd JS-tools-V1-latest`
-- Type => `bash run.sh` in the terminal
+**If you're using a *terminal* like *Termux*:**
+- Run: `git clone https://github.com/ini-alex/JS-tools-V1-latest`
+- Enter the folder: `cd JS-tools-V1-latest`
+- Run: `bash run.sh`
 
 **Note:**  
-- This script is still under development. Please understand if some features are incomplete or bugs may occur. The developer provides an open contact for reporting issues (see footer below).
+This script is still under development. Please understand if there are missing features or bugs.  
+You can report issues via the contact link in the footer below.
 
 ---
 
 **© Lexxa2nd || 2025 - NOW**  
-Made with passion and caffeine.  
-Follow for updates: [Whatsapp channel](https://whatsapp.com/channel/0029Vb43ANHEAKWOEuGnO23o)  
-Want to ask something? [Contact Developer](https://wa.me/6285129426672)
+*Made with passion and caffeine.*  
+Follow for updates on [WhatsApp Channel](https://whatsapp.com/channel/0029Vb43ANHEAKWOEuGnO23o)  
+Have a question? [Contact the Developer on WhatsApp](https://wa.me/6285129426672)
