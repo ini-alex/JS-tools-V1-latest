@@ -11,6 +11,8 @@ Script ini diciptakan oleh Lexxa2nd dengan tujuan memudahkan para programmer dal
 - Atau, command run diganti jadi => `bash run.sh`
 
 **Jika di Terminal seperti Termux:**  
+- ketik => `git clone https://github.com/ini-alex/JS-tools-V1-latest`
+- ketik => `cd JS-tools-V1-latest`
 - Ketik => `bash run.sh`, di terminal
 
 **Catatan:**  
@@ -27,7 +29,9 @@ This script was created by Lexxa2nd with the aim of helping programmers in both 
 - Just run `npm start`  
 - Or, change the run command to => `bash run.sh`
 
-**If you're using a terminal like Termux:**  
+**If you're using a terminal like Termux:**
+- type => `git clone https://github.com/ini-alex/JS-tools-V1-latest`
+- type => `cd JS-tools-V1-latest`
 - Type => `bash run.sh` in the terminal
 
 **Note:**  
