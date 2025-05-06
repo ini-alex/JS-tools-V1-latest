@@ -5,8 +5,8 @@
 *Pengantar*  
 Script ini diciptakan oleh Lexxa2nd dengan tujuan memudahkan para programmer dalam hal coding ringan-berat
 
-*Cara pakai*  
-**Jika di panel:**  
+*Cara pakai??*  
+**Jika di panel:**
 - tinggal `npm start`  
 - Atau, command run diganti jadi => `bash run.sh`
 
@@ -24,7 +24,7 @@ Script ini diciptakan oleh Lexxa2nd dengan tujuan memudahkan para programmer dal
 *Introduction*  
 This script was created by Lexxa2nd with the aim of helping programmers in both light and heavy coding tasks.
 
-*How to use*  
+*How to use??*  
 **If you're using a panel:**  
 - Just run `npm start`  
 - Or, change the run command to => `bash run.sh`
