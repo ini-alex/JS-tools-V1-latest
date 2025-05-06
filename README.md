@@ -3,7 +3,7 @@
 
 ---
 
-**Bahasa Indonesia**  
+### **Bahasa Indonesia**  
 ***Pengantar***  
 Script ini diciptakan oleh **Lexxa2nd** dengan tujuan memudahkan para programmer dalam hal coding ringan maupun berat.
 
@@ -23,7 +23,7 @@ Laporkan bug/error melalui kontak yang tersedia di bagian footer.
 
 ---
 
-**English**  
+### **English**  
 ***Introduction***  
 This script was created by **Lexxa2nd** with the aim of helping programmers with both lightweight and heavy coding tasks.
 
