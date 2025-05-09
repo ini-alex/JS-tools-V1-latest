@@ -1,41 +1,65 @@
 import qrcode from 'qrcode-terminal';
-import { exec } from 'child_process';
+import { exec, spawn } from 'child_process';
 import readline from 'readline';
 import axios from 'axios';
 import chalk from 'chalk';
+import { Worker, isMainThread, parentPort, workerData } from 'worker_threads';
+import { dos } from "./dos.mjs";
+import cliTable from 'cli-table3';
+function tool() {
 const rl = readline.createInterface({
   input: process.stdin,
   output: process.stdout,
   prompt: chalk.green.bold('[ JS TOOLS V1 ]\n  ┗─⧼') + chalk.yellow.bold(' ᴄᴏᴍᴍᴀɴᴅ ') + chalk.green.bold('⧽━⪼ ')
 });
 console.clear()
-console.log(chalk.green.bold(` ==================================================\n\n`),
-chalk.yellow.bold(`     Welcome to JS Tools V1 - Created by Alex\n\n`),
-chalk.green.bold(`==================================================\n`),
+console.log(chalk.green.bold(`
+ ===============================================================
+ ===============================================================`),
 chalk.yellow.bold(`
 
-Hai dev keren! Selamat datang di JS Tools V1.
-This toolkit dibuat dengan penuh semangat oleh Alex,  
+     ██╗███████╗    ████████╗ ██████╗  ██████╗ ██╗     ███████╗
+     ██║██╔════╝    ╚══██╔══╝██╔═══██╗██╔═══██╗██║     ██╔════╝
+     ██║███████╗       ██║   ██║   ██║██║   ██║██║     ███████╗
+██   ██║╚════██║       ██║   ██║   ██║██║   ██║██║     ╚════██║
+╚█████╔╝███████║       ██║   ╚██████╔╝╚██████╔╝███████╗███████║
+ ╚════╝ ╚══════╝       ╚═╝    ╚═════╝  ╚═════╝ ╚══════╝╚══════╝
+
+                    ██╗   ██╗ ██╗    ██████╗ 
+                    ██║   ██║███║   ██╔═████╗
+                    ██║   ██║╚██║   ██║██╔██║
+                    ╚██╗ ██╔╝ ██║   ████╔╝██║
+                     ╚████╔╝  ██║██╗╚██████╔╝
+                      ╚═══╝   ╚═╝╚═╝ ╚═════╝                                                                                                             
+`),
+chalk.white.bold(`
+                   © Lexxa2nd || 2025 - NOW \n`),
+chalk.green.bold(`
+================================================================
+================================================================\n`),
+chalk.yellow.bold(`
+
+Hai calon developer! Welcome to JS Tools V1.
+This toolkit created by Lexxa2nd(Alex),  
 buat bantuin lu ngoding lebih cepat, rapi, dan gak ribet.
 
 > Versi pertama ini masih sederhana, tapi jangan salah —
   di balik script ini ada potensi buat jadi legenda.
 > Ketik help untuk lihat semua fitur
+> ketik dev untuk contact kami
 
 Jangan lupa:
 - Keep exploring
 - Jangan takut ngulik
 - Dan selalu backup file sebelum ngoding ngaco
 
-Thanks udah make tools ini.
+Thanks udah pake tools ini.
 Stay sharp. Stay creative. And happy coding!
 
-- Alex (Developer)
 `));
 rl.prompt();
 
 const delay = (ms) => new Promise(resolve => setTimeout(resolve, ms));
-
 rl.on('line', (line) => {
   const input = line.trim();
   const args = input.split(' ');
@@ -53,17 +77,71 @@ rl.on('line', (line) => {
       }
       break;
 
-case "get":
-	let tek = args.startsWith("https://");
-	if(!args && !tek) { return console.log(chalk.red.bold("Masukkan tautan yang valid!"));
-	}
-	let resp = axios.get(tek);
-	try {
-	console.log(chalk.green.bold("\nhasil:\n"), resp.data);
-	} catch (e) {
-	console.error(e);
-	}
+case "clear": {
+console.log(chalk.red.bold("Membersihkan terminal"));
+setTimeout(() => {
+console.clear()
+rl.prompt()}, 1000 )
 break;
+}
+
+case "cr": case "tqto": {
+console.log(chalk.bgYellow.black.bold("Thanks to:"));
+console.log(chalk.yellow.bold(`> Wahid XD	=> Cees & support
+> Apinz Dev	=> Cees & support`))
+break;
+}
+case "dos": {
+async function run() {
+rl.close();
+await dos();
+rl.prompt();
+}
+run();
+break;
+}
+case "dev": {
+console.log(chalk.bgYellow.black.bold("Contact developer:"));
+console.log(chalk.yellow.bold(`
+> whatsapp	=> ketik wa untuk contact whatsapp
+> github	=> ketik gh untuk menuju github developer
+> channel	=> ketik ch untuk menuju channel wa developer
+`));
+break;
+}
+
+case "wa": {
+console.log(chalk.green.bold("Menuju whatsapp dev"));
+spawn('termux-open-url', ['https://wa.me/6285129426672?text=Assalamualaikum+bang']);
+break;
+}
+
+case "gh": {
+console.log(chalk.green.bold("Menuju github dev"));
+spawn('termux-open-url', ['https://github.com/ini-alex']);
+break;
+}
+
+case "ch": {
+console.log(chalk.green.bold("Menuju channel dev"));
+spawn('termux-open-url', ['https://whatsapp.com/channel/0029Vb43ANHEAKWOEuGnO23o']);
+break;
+}
+case "fetch": {
+	var tek = params[0];
+	if(!tek) {
+	return console.log(chalk.red.bold(`Masukkan url yang ingin di ${command}`))
+	}
+	var url = tek.toString();
+	if(!url.startsWith("https://")) {
+	return console.log("url tidak valid!")
+	};
+fetch(url).then(response => {
+  console.log(response);
+});
+}
+break
+
 case 'qr': {
   if (!text) {
     console.log('Masukin teks atau link yang mau dijadiin QR!');
@@ -73,6 +151,7 @@ case 'qr': {
   qrcode.generate(text, { small: true });
   break;
 }
+
 
 case "pantun": case "random-pantun":
 async function getPantun() {
@@ -107,7 +186,7 @@ case 'ai_mode': case "ai":
       console.log(chalk.blue('[INFO] Menunggu respon...'));
 
       try {
-        let response = await axios.get(`https://api-skyzopedia-3.vercel.app/ai/openai?apikey=skyzo&text=mulai+sekarang+namamu+JS+assistant%2C+yang+merancangmu+adalah+LXA+developer.+pertanyaan+ku+sekarang+${encodeURIComponent(question)}`);
+        let response = await axios.get(`https://api-skyzopedia-3.vercel.app/ai/openai?apikey=skyzo&text=mulai+sekarang+namamu+JS+assistant%2C+yang+merancangmu+adalah+LXA+developer%28jangan+sebut+kecuali+ditanyakan%29.+pertanyaan+ku+sekarang+${encodeURIComponent(question)}`);
         
         // Mengambil hasil dari field `result`
         if (response.data?.result) {
@@ -211,8 +290,8 @@ exec('sl', (error, stdout, stderr) => {
       break;
 
     case 'tutup': case 'close':
+	console.log(chalk.red.bold("Closing script..."));
 	setTimeout(() => {
-      console.log(chalk.red.bold("Closing script..."));
       console.log(chalk.bgRed.white.bold('Script Closed, see you again!'));
 	}, 2000);
       rl.close();
@@ -262,6 +341,7 @@ case 'install':
   });
   break;
 }  
-  
-rl.prompt(); // nunggu input lagi
+rl.prompt();  
 });
+};
+tool()
