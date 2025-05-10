@@ -87,7 +87,9 @@ break;
 
 case "cr": case "tqto": {
 console.log(chalk.bgYellow.black.bold("Thanks to:"));
-console.log(chalk.yellow.bold(`> Wahid XD	=> Cees & support
+console.log(chalk.yellow.bold(`> Alexx         => Myself 
+> Rinn          => My lovee
+> Wahid XD	=> Cees & support
 > Apinz Dev	=> Cees & support`))
 break;
 }
