@@ -87,10 +87,14 @@ break;
 
 case "cr": case "tqto": {
 console.log(chalk.bgYellow.black.bold("Thanks to:"));
-console.log(chalk.yellow.bold(`> Alexx         => Myself 
+console.log(chalk.yellow.bold(`
+> Allah SWT.    => GOD
+> My parents    => Best support 
+> Alexx         => Myself 
 > Rinn          => My lovee
 > Wahid XD	=> Cees & support
-> Apinz Dev	=> Cees & support`))
+> Apinz Dev	=> Cees & support
+> Dewa          => Cees & support`))
 break;
 }
 case "dos": {
