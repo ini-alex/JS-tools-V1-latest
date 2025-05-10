@@ -275,15 +275,6 @@ case 'install_panel':
       }
       break
 
-	case 'locomotive':
-exec('sl', (error, stdout, stderr) => {
-  if (error) {
-    console.error(`Error: ${error.message}`);
-    return;
-  }
-  console.log(stdout);
-});
-	break;
 
     case 'halo':
       console.log('Halo juga bre!');
@@ -319,6 +310,9 @@ case 'help':
 4. install_panel		 => Installer panel pterodactyl
 5. ai				 => Assisten AI(Gpt)
 6. pantun			 => Pantun random(fun)
+7. fetch 			 => Fetch website
+8. dos				 => Menyerang website dengan keamanan rendah
+9. dev				 => Info developer
 `));
   break;
 case 'install':
